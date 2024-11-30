@@ -1,0 +1,124 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 8px;
+    padding: ;
+}
+
+.container-navbar {
+    
+    background-color: rgb(9, 10, 11);
+    width: 100%;
+    height: auto;
+    
+    border-radius: 10px;
+}
+
+.container-content {
+    background-color: rgb(243, 104, 192);
+    display: grid;
+    grid-template-columns: 25% 75%;
+    border-radius: 3px;
+   justify-items: right;
+   align-items: flex-start;
+    margin: 2px;
+    
+    border-radius: 10px;
+    height: 77vh;
+}
+
+.container-footer {
+    height: 10vh;
+    background-color: rgb(118, 119, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(4, 4, 100);
+}
+
+.ul-navbar1 {
+    
+    list-style-type: none;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(225, 9, 146);
+    font-size: 35px;
+}
+
+.ul-navbar {
+    list-style-type:none;
+    padding: 1px; 
+    margin: 0px;
+    align-items:center;
+    justify-items: left;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(12, 210, 42);
+    width: 90%;
+    height: 30px;
+   
+}
+
+.img-content {
+    width: 90%;
+    height: 77vh;
+}
+
+.img-content1 {
+        margin-top: 15px;
+       max-width: 200px;
+       float: left;
+}
+
+
+@media screen and (max-widht: 768px) {
+    .container-navbar {
+        background-color: rgb(187, 0, 255);
+        
+    }
+    
+    .container-content {
+        font-size: 3px;
+        padding: 1px; 
+        margin: 3px;
+        
+    }
+
+    .li-navbar1 {
+        font-size: 1em;
+    }
+
+    .ul-navbar {
+        
+        padding: 1px; 
+        margin: 1px;
+        font-size: 1em;
+        height: 
+    }
+
+    .li-navbar {
+        font-size: 2em;
+    }
+
+    .img-content {
+        width: 45%;
+        height: 50%;
+    }
+
+    .container-footer {
+        width: 
+        height:
+    }
+}
+
+
